@@ -15,3 +15,5 @@ The project follows these steps:
 - `inflect_noun(lemma, case, number)`: Inflects a given noun lemma according to the specified case and number, considering relevant morphological rules.
 5. Generating the paradigm:
 - `print_paradigm(lemma)`: Prints the full noun paradigm for the given lemma, encompassing all cases and both singular and plural forms.
+
+Additionally, this project includes a unittest file that can be used to verify that all methods are functioning correctly.
