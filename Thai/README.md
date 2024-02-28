@@ -3,18 +3,18 @@ This Python project focuses on linguistic analysis of Thai text, with an emphasi
 **Project Tasks:**
 1. Reading the Dictionary from a File:
 - Function: `read_file_to_dict(input_file)`
-- Reads the contents of an input file, retrieving columns 2, 3, and 4 based on unique values in column 1.
-- Returns a dictionary.
+  - Reads the contents of an input file, retrieving columns 2, 3, and 4 based on unique values in column 1.
+  - Returns a dictionary.
 2. Simple Tokenization:
 - Function: `simple_tokenizer(th_dict, sentence)`
-- Combines simple tokenizer, transliterator, part-of-speech tagger, and glosser.
-- Analyzes a Thai sentence based on the dictionary data, looking for the shortest possible chunk.
-- Returns tokenized, transliterated, POS-tagged, and glossed results.
+  - Combines simple tokenizer, transliterator, part-of-speech tagger, and glosser.
+  - Analyzes a Thai sentence based on the dictionary data, looking for the shortest possible chunk.
+  - Returns tokenized, transliterated, POS-tagged, and glossed results.
 3. Greedy Tokenization:
 - Function: `greedy_tokenizer(th_dict, sentence)`
-- Combines greedy tokenizer, transliterator, part-of-speech tagger, and glosser.
-- Analyzes a Thai sentence based on the dictionary data, finding the longest chunk.
-- Returns tokenized, transliterated, POS-tagged, and glossed results.
+  - Combines greedy tokenizer, transliterator, part-of-speech tagger, and glosser.
+  - Analyzes a Thai sentence based on the dictionary data, finding the longest chunk.
+  - Returns tokenized, transliterated, POS-tagged, and glossed results.
 **Functions:**
 - `th_tokens(th_dict, sentence)`: Gets tokens using simple tokenization.
 - `th_translit(th_dict, sentence)`: Gets transliterations using simple tokenization.
