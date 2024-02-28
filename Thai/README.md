@@ -15,6 +15,7 @@ This Python project focuses on linguistic analysis of Thai text, with an emphasi
   - Combines greedy tokenizer, transliterator, part-of-speech tagger, and glosser.
   - Analyzes a Thai sentence based on the dictionary data, finding the longest chunk.
   - Returns tokenized, transliterated, POS-tagged, and glossed results.
+
 **Functions:**
 - `th_tokens(th_dict, sentence)`: Gets tokens using simple tokenization.
 - `th_translit(th_dict, sentence)`: Gets transliterations using simple tokenization.
@@ -24,6 +25,7 @@ This Python project focuses on linguistic analysis of Thai text, with an emphasi
 - `th_translit_greedy(th_dict, sentence)`: Gets transliterations using greedy tokenization.
 - `th_pos_greedy(th_dict, sentence)`: Gets part-of-speech tags using greedy tokenization.
 - `th_glosses_greedy(th_dict, sentence)`: Gets English glosses using greedy tokenization.
+  
 **Usage:**
 1. Load the dictionary using read_file_to_dict.
 2. Use simple or greedy tokenization functions for your task.
