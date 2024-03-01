@@ -1,9 +1,3 @@
-# IMPORTANT: assign the parts of your name and your student ID to these variables!
-first_name = "Dmitry"
-family_name = "Sukhotin"
-student_id = "6688071"
-
-
 import csv
 input_file = "/Users/dmitrijsuhotin/Desktop/python_hw/Thai_transl/th-eng-dict.tsv"
 
