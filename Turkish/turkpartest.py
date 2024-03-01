@@ -1,5 +1,5 @@
 import unittest
-from ex_02 import *
+from turkpar import *
 
 
 # tests for the Task 1
