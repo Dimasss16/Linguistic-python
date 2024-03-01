@@ -1,14 +1,3 @@
-"""
-Python 2023 Assignment 02
-"""
-
-# IMPORTANT: assign the parts of your name and your student ID to these variables!
-first_name = "Dmitry"
-family_name = "Sukhotin"
-student_id = "6688071"
-
-# print(student_id)
-
 def is_vowel(letter):
     """
     Checks whether the letter is a vowel.
