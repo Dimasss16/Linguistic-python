@@ -1,5 +1,5 @@
 import unittest
-from ex_06 import *
+from thaigloss import *
 
 file_name = "th-eng-dict.tsv"
 
