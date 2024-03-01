@@ -1,12 +1,3 @@
-"""
-Python 2023 Assignment 07
-"""
-
-# IMPORTANT: assign the parts of your name and your student ID to these variables!
-first_name = "Dmitry"
-family_name = "Sukhotin"
-student_id = "6688071"
-
 # all inflected forms of 'ser'
 conj_ser = {"sersiendo", "sido", "sidasidos", "sidas", "soy", "eres", "sos", "es", "somos", "sois", "son", "era",
             "eras", "era", "éramos", "erais", "eran", "fui", "fuiste", "fue", "fuimos", "fuisteis", "fueron", "seré",
